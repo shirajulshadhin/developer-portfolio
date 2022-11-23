@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orangered;
 }
@@ -14,13 +18,36 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 }
+
+.experience-card {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 20px;
+}
+
+#experience-color1 {
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, red);
+    border-image-slice: 1;
+}
+
+#experience-color2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(40, 9, 124), rgb(15, 82, 207));
+    border-image-slice: 1;
+}
+
 
 .half-width img {
     width: 80%;
 }
 
-section {
+.flex {
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +71,14 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
