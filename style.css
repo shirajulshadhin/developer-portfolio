@@ -216,3 +216,35 @@ main{
 .main-row span{
     border-bottom: 0.5px solid dimgray;
 }
+/* Contact Style  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact div{
+    max-width: 50%;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    /* border: 1px; */
+}
+input{
+    height: 34px;
+    padding: 10px;
+}
+.contact .section-description{
+    text-align: left;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
